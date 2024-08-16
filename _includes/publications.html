@@ -18,7 +18,6 @@
 
   {% for publication in publications.papers %}
   <div class="item">
-    <!-- {% if publication.tag %} -->
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
     {% else %}
@@ -27,7 +26,6 @@
     <div class="publication-authors">{{ publication.authors }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
     <div class="publication-conference">{{ publication.other }}</div>
-    <!-- {% endif %} -->
   </div><!--//item-->
   {% endfor %}
   <!-- <div class="intro">
