@@ -1,0 +1,129 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+    # Profile information
+    name: Jiarui Guo
+    tagline: 郭嘉睿<br>Ph.D. Student<br>Peking University<br>
+    avatar: photo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Sidebar links
+    email: ntguojiarui@pku.edu.cn
+    phone:
+    timezone: Beijing, China
+    website: ntguojiarui.github.io # do not add http://
+    linkedin: jiarui-guo-b90a59279
+    xing:
+    github: github.com/ntguojiarui
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    pdf: ./CV.pdf
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    # languages:
+    #   - idiom: Chinese
+    #     level: Native
+    #   - idiom: English
+    # interests:
+    #   - item: Photography
+    #     link: https://tuchong.com/2696014
+    #   - item: Painting
+
+career-profile:
+    title: Biography
+    summary: |
+
+      I am a Ph.D. student in School of Computer Science at Peking University, advised by Prof. <a href="https://cs.pku.edu.cn/info/1230/2031.htm">Xiaolin Wang</a> 
+      and Prof. <a href="https://yangtonghome.github.io/">Tong Yang</a>. My research interests include inference optimization in LLM, quantization algorithms for large models, and sketching algorithms in data streams. 
+      I also work as a research intern at Baichuan Inc.  
+      Before I start my Ph.D. degree, I received my bachelor degree in Computer Science and Mathematics at Peking University in 2023. 
+      
+education:
+    - degree: Ph.D. in Computer Science
+      university: Peking University
+      time: 2023 - Present
+    - degree: B.Sc. in Computer Science & Mathematics
+      university: Peking University
+      time: 2019 - 2023
+
+
+publications:
+    title: Publications
+    intro: <a href="https://scholar.google.com/citations?user=bTDP5zIAAAAJ">Google Scholar</a>
+    papers:
+      - title: "SteadySketch: A High-Performance Algorithm for Finding Steady Flows in Data Streams"
+        authors: Zhuochen Fan, Xiangyuan Wang, Xiaodong Li, <b><u>Jiarui Guo</u></b>, Wenrui Liu, Haoyu Li, Sheng Long, Zheng Zhong, Tong Yang, Xuebin Chen, Bin Cui
+        conference: "IEEE/ACM Transactions on Networking (<b>TON</b>). Aug. 2024"
+        #other: <a href="./papers/steady_ton.pdf">[PDF]</a>
+      - title: "Enabling space-time efficient range queries with REncoder"
+        authors: Zhuochen Fan, Bowen Ye, Ziwei Wang, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Yuhan Wu, Haoyu Li, Tong Yang, Yaofeng Tu, Zirui Liu, Bin Cui
+        conference: "The VLDB Journal (<b>VLDBJ</b>). Aug. 2024"
+        other: <a href="./papers/rencoder_vldbj.pdf">[PDF]</a>
+      - title: "SketchPolymer: Estimate Per-item Tail Quantile Using One Sketch"
+        authors: <b><u>Jiarui Guo</u></b>, Yisen Hong, Yuhan Wu, Yunfei Liu, Tong Yang, Bin Cui
+        conference: "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<b>KDD '23</b>). Aug. 2023"
+        other: <a href="./papers/sketchpolymer_kdd.pdf">[PDF]</a> <a href="https://github.com/SketchPolymer/SketchPolymer-code">[Code]</a> <a href="./slides/sketchpolymer_slides.pdf">[Slides]</a> 
+      - title: "SteadySketch: Finding Steady Flows in Data Streams"
+        authors: Xiaodong Li, Zhuochen Fan, Haoyu Li, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Sheng Long, Tong Yang, Bin Cui
+        conference: "2023 IEEE/ACM 31st International Symposium on Quality of Service (<b>IWQoS '23</b>). Jun. 2023"
+        other: <a href="./papers/steady_iwqos.pdf">[PDF]</a>
+      - title: "PISketch: Finding Persistent and Infrequent Flows" 
+        authors: Zhuochen Fan, Zhoujing Hu, Yuhan Wu, <b><u>Jiarui Guo</u></b>, Sha Wang, Wenrui Liu, Tong Yang, Yaofeng Tu, Steve Uhlig
+        conference: "IEEE/ACM Transactions on Networking (<b>TON</b>). May. 2023"
+        other: <a href="./papers/pisketch_ton.pdf">[PDF]</a>
+      - title: "Finding Simplex Items in Data Streams" 
+        tag: True
+        authors: Zhuochen Fan, <b><u>Jiarui Guo</u></b>, Xiaodong Li, Tong Yang, Yikai Zhao, Yuhan Wu, Bin Cui, Yanwei Xu, Steve Uhlig, Gong Zhang
+        conference: "2023 IEEE 39th International Conference on Data Engineering (<b>ICDE '23</b>). Apr. 2023"
+        other: <a href="./papers/xsketch_icde.pdf">[PDF]</a> <a href="https://github.com/SimpleX-Sketch/X-Sketch">[Code]</a> <a href="./slides/xsketch_slides.pdf">[Slides]</a> 
+      - title: "REncoder: A Space-Time Efficient Range Filter with Local Encoder" 
+        authors: Ziwei Wang, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Yuhan Wu, Haoyu Li, Tong Yang, Yaofeng Tu, Huanchen Zhang, Bin Cui
+        conference: "2023 IEEE 39th International Conference on Data Engineering (<b>ICDE '23</b>). Apr. 2023"
+        other: <a href="./papers/rencoder_icde.pdf">[PDF]</a>
+      - title: "BurstSketch: Finding Bursts in Data Streams"
+        authors: Ruijie Miao, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Zikun Li, Tong Yang, Bin Cui
+        conference: "IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>). Nov. 2022"
+        other: <a href="./papers/burst_tkde.pdf">[PDF]</a> <a href="https://github.com/mrj222/burst-sketch">[Code]</a> 
+      - title: "PISketch: Finding Persistent and Infrequent Flows" 
+        authors: Zhuochen Fan, Zhoujing Hu, Yuhan Wu, <b><u>Jiarui Guo</u></b>, Wenrui Liu, Tong Yang, Hengrui Wang, Yifei Xu, Steve Uhlig, Yaofeng Tu
+        conference: "Proceedings of the ACM SIGCOMM 2022 Workshop on Formal Foundations and Security of Programmable Network Infrastructures (<b>FFSPIN '22</b>). Aug. 2022"
+        other: <a href="./papers/pisketch_ffspin.pdf">[PDF]</a>
+
+experiences:
+    title: Teaching Assistant
+    contents:
+      - role: Probability Theory and Statistics in Information Science
+        time: Spring 2024
+      - role: Probability Theory and Statistics (A)
+        time: Spring 2023
+
+projects:
+    title: Projects
+    intro:
+    assignments:
+      - title: Review Materials
+        link: "review_material.html"
+        tagline: "Review materials for some courses in Peking University."
+
+materials: 
+    - title: "算法设计与分析(Algorithm Design & Analysis)"
+      link: "./files/Algo.pdf"
+    - title: "信息论(Information Theory)"
+      link: "./files/Info.pdf"
+    - title: "军事理论(Military Theory)"
+      link: "./files/Military.pdf"
+    - title: "计算机网络(Computer Network)"
+      link: "./files/Network.pdf"
+    - title: "操作系统(Operating System)"
+      link: "./files/OS.pdf"
+    - title: "地震概论(Introduction to Seismology)"
+      link: "./files/Seismology.pdf"
+    - title: "理论计算机科学基础(Theoretical Computer Science)"
+      link: "./files/TCS.pdf" 
+      
+

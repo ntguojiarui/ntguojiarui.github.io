@@ -1,0 +1,27 @@
+{% assign materials = site.data.data.materials %}
+{% if materials %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    Review Materials
+  </h2>
+
+
+  {% for material in materials %}
+  <div class="item">
+    {% if material.link %}
+      <li><a href="{{ material.link }}">{{ material.title }}</a></li>
+    {% else %}
+      <li class="publication-title">{{ material.title }}</li>
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+  <div class="intro">
+    <a href="./index.html">Back Home</a>
+  </div><!--//intro-->
+</section><!--//section-->
+{% endif %}
