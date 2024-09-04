@@ -60,7 +60,7 @@ publications:
         conference: "IEEE/ACM Transactions on Networking (<b>ToN</b>). Aug. 2024"
         link: "./papers/steady_ton.pdf"
         other: <a href="./papers/steady_ton.pdf">[PDF]</a>
-      - title: "Enabling Space-time Efficient Range Queries with REncoder"
+      - title: "Enabling Space-Time Efficient Range Queries with REncoder"
         authors: Zhuochen Fan, Bowen Ye, Ziwei Wang, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Yuhan Wu, Haoyu Li, Tong Yang, Yaofeng Tu, Zirui Liu, Bin Cui
         conference: "The VLDB Journal (<b>VLDBJ</b>). Aug. 2024"
         link: "./papers/rencoder_vldbj.pdf"
