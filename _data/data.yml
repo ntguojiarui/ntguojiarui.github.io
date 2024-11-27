@@ -55,6 +55,12 @@ publications:
     title: Publications
     intro: <a href="https://scholar.google.com/citations?user=bTDP5zIAAAAJ">Google Scholar</a>
     papers:
+      - title: "HourglassSketch: An Efficient and Scalable Framework for Graph Stream Summarization"
+        authors: <b><u>Jiarui Guo</u></b>, Boxuan Chen, Kaicheng Yang, Tong Yang, Zirui Liu, Qiuheng Yin, Sha Wang, Yuhan Wu, Xiaolin Wang, Bin Cui, Tao Li, Xi Peng, Renhai Chen, Gong Zhang
+        conference: "2025 IEEE 41st International Conference on Data Engineering (<b>ICDE '25</b>). May. 2025"
+      - title: "CuckooGraph: A Scalable and Space-Time Efficient Data Structure for Large-Scale Dynamic Graphs"
+        authors: Zhuochen Fan, Yalun Cai, Zirui Liu, <b><u>Jiarui Guo</u></b>, Xin Fan, Tong Yang, Bin Cui
+        conference: "2025 IEEE 41st International Conference on Data Engineering (<b>ICDE '25</b>). May. 2025"
       - title: "SteadySketch: A High-Performance Algorithm for Finding Steady Flows in Data Streams"
         authors: Zhuochen Fan, Xiangyuan Wang, Xiaodong Li, <b><u>Jiarui Guo</u></b>, Wenrui Liu, Haoyu Li, Sheng Long, Zheng Zhong, Tong Yang, Xuebin Chen, Bin Cui
         conference: "IEEE/ACM Transactions on Networking (<b>ToN</b>). Aug. 2024"
@@ -62,7 +68,7 @@ publications:
         other: <a href="./papers/steady_ton.pdf">[PDF]</a>
       - title: "Enabling Space-Time Efficient Range Queries with REncoder"
         authors: Zhuochen Fan, Bowen Ye, Ziwei Wang, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Yuhan Wu, Haoyu Li, Tong Yang, Yaofeng Tu, Zirui Liu, Bin Cui
-        conference: "The VLDB Journal (<b>VLDBJ</b>). Aug. 2024"
+        conference: "The International Journal on Very Large Data Bases (<b>VLDBJ</b>). Aug. 2024"
         link: "./papers/rencoder_vldbj.pdf"
         other: <a href="./papers/rencoder_vldbj.pdf">[PDF]</a>
       - title: "SketchPolymer: Estimate Per-item Tail Quantile Using One Sketch"
