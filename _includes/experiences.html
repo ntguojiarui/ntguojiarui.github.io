@@ -10,22 +10,9 @@
   {% for experience in experiences.contents %}
   <div class="item">
 
-    <div class="meta">
-
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
-      <div class="company">{{ experience.company }}</div>
-
-    </div><!--//meta-->
-
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
+      <h4 class="degree">{{ experience.role }}</h4>
+      <h5 class="meta">{{ experience.company }}</h5>
+      <div class="time">{{ experience.time }}</div>
 
   </div><!--//item-->
   {% endfor %}

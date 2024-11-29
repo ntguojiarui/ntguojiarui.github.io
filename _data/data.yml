@@ -109,14 +109,12 @@ publications:
         other: <a href="./papers/pisketch_ffspin.pdf">[PDF]</a>
 
 experiences:
-    title: Working Experience
-    contents:
-      - role: Research Intern
-        time: April 2024 - Now
-        company: Baichuan Inc., Beijing, China
-      - role: Research Intern (Online)
-        time: September 2023 - April 2024
-        company: Theory Lab, Huawei Technologies Co.Ltd., Hong Kong SAR, China
+    - role: Research Intern
+      time: April 2024 - Now
+      company: Baichuan Inc.
+    - role: Research Intern (Online)
+      time: September 2023 - April 2024
+      company: Theory Lab, Huawei Technologies Co.Ltd.
 
 projects:
     title: Projects
