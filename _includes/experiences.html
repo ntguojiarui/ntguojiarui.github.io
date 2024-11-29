@@ -5,7 +5,7 @@
       <h2 class="container-block-title">
         Working Experience
       </h2>
-      {% for experience in experiences.contents %}
+      {% for experience in experiences %}
       <div class="item">
           <h4 class="degree">{{ experience.role }}</h4>
           <h5 class="meta">{{ experience.company }}</h5>
@@ -23,7 +23,7 @@
       {{ experiences.title }}
     </h2>
 
-    {% for experience in experiences.contents %}
+    {% for experience in experiences %}
     <div class="item">
 
       <div class="meta">
