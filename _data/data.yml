@@ -5,6 +5,7 @@
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+    experience: True # set to False if you want experience in main section instead of in sidebar
     # Profile information
     name: Jiarui Guo
     tagline: 郭嘉睿<br>Ph.D. Student<br>Peking University<br>
@@ -108,7 +109,7 @@ publications:
         other: <a href="./papers/pisketch_ffspin.pdf">[PDF]</a>
 
 experiences:
-    title: Working Experiences
+    title: Working Experience
     contents:
       - role: Research Intern
         time: April 2024 - Now
