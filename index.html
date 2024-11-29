@@ -17,6 +17,10 @@ layout: default
   {% include education.html %}
 {% endunless %}
 
+{% unless site.data.data.sidebar.experiences %}
+  {% include experiences.html %}
+{% endunless %}
+
 {% include publications.html %}
-{% include experiences.html %}
+
 
