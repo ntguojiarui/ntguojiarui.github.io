@@ -71,7 +71,7 @@ publications:
       - title: "SteadySketch: Finding Steady Flows in Data Streams"
         authors: Xiaodong Li, Zhuochen Fan, Haoyu Li, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Sheng Long, Tong Yang, Bin Cui
         conference: "2023 IEEE/ACM 31st International Symposium on Quality of Service (<b>IWQoS '23</b>). Jun. 2023"
-        link: "./papers/SteadySketch-IWQoS.pdf"
+        link: "./papers/SteadySketch-IWQoS23.pdf"
       - title: "PISketch: Finding Persistent and Infrequent Flows" 
         authors: Zhuochen Fan, Zhoujing Hu, Yuhan Wu, <b><u>Jiarui Guo</u></b>, Sha Wang, Wenrui Liu, Tong Yang, Yaofeng Tu, Steve Uhlig
         conference: "IEEE/ACM Transactions on Networking (<b>ToN</b>). May. 2023"
