@@ -51,54 +51,47 @@ publications:
       - title: "HourglassSketch: An Efficient and Scalable Framework for Graph Stream Summarization"
         authors: <b><u>Jiarui Guo</u></b>, Boxuan Chen, Kaicheng Yang, Tong Yang, Zirui Liu, Qiuheng Yin, Sha Wang, Yuhan Wu, Xiaolin Wang, Bin Cui, Tao Li, Xi Peng, Renhai Chen, Gong Zhang
         conference: "2025 IEEE 41st International Conference on Data Engineering (<b>ICDE '25</b>). May. 2025"
+        link: "./papers/HourglassSketch-ICDE25.pdf"
       - title: "CuckooGraph: A Scalable and Space-Time Efficient Data Structure for Large-Scale Dynamic Graphs"
         authors: Zhuochen Fan, Yalun Cai, Zirui Liu, <b><u>Jiarui Guo</u></b>, Xin Fan, Tong Yang, Bin Cui
         conference: "2025 IEEE 41st International Conference on Data Engineering (<b>ICDE '25</b>). May. 2025"
+        link: "./papers/CuckooGraph-ICDE25.pdf"
       - title: "SteadySketch: A High-Performance Algorithm for Finding Steady Flows in Data Streams"
         authors: Zhuochen Fan, Xiangyuan Wang, Xiaodong Li, <b><u>Jiarui Guo</u></b>, Wenrui Liu, Haoyu Li, Sheng Long, Zheng Zhong, Tong Yang, Xuebin Chen, Bin Cui
         conference: "IEEE/ACM Transactions on Networking (<b>ToN</b>). Aug. 2024"
-        link: "./papers/steady_ton.pdf"
-        other: <a href="./papers/steady_ton.pdf">[PDF]</a>
+        link: "./papers/SteadySketch-ToN.pdf"
       - title: "Enabling Space-Time Efficient Range Queries with REncoder"
         authors: Zhuochen Fan, Bowen Ye, Ziwei Wang, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Yuhan Wu, Haoyu Li, Tong Yang, Yaofeng Tu, Zirui Liu, Bin Cui
         conference: "The International Journal on Very Large Data Bases (<b>VLDBJ</b>). Aug. 2024"
-        link: "./papers/rencoder_vldbj.pdf"
-        other: <a href="./papers/rencoder_vldbj.pdf">[PDF]</a>
+        link: "./papers/REncoder-VLDBJ.pdf"
       - title: "SketchPolymer: Estimate Per-item Tail Quantile Using One Sketch"
         authors: <b><u>Jiarui Guo</u></b>, Yisen Hong, Yuhan Wu, Yunfei Liu, Tong Yang, Bin Cui
         conference: "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<b>KDD '23</b>). Aug. 2023"
-        link: "./papers/sketchpolymer_kdd.pdf"
-        other: <a href="./papers/sketchpolymer_kdd.pdf">[PDF]</a> <a href="https://github.com/SketchPolymer/SketchPolymer-code">[Code]</a> <a href="./slides/sketchpolymer_slides.pdf">[Slides]</a> 
+        link: "./papers/SketchPolymer-KDD23.pdf"
       - title: "SteadySketch: Finding Steady Flows in Data Streams"
         authors: Xiaodong Li, Zhuochen Fan, Haoyu Li, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Sheng Long, Tong Yang, Bin Cui
         conference: "2023 IEEE/ACM 31st International Symposium on Quality of Service (<b>IWQoS '23</b>). Jun. 2023"
-        link: "./papers/steady_iwqos.pdf"
-        other: <a href="./papers/steady_iwqos.pdf">[PDF]</a>
+        link: "./papers/SteadySketch-IWQoS.pdf"
       - title: "PISketch: Finding Persistent and Infrequent Flows" 
         authors: Zhuochen Fan, Zhoujing Hu, Yuhan Wu, <b><u>Jiarui Guo</u></b>, Sha Wang, Wenrui Liu, Tong Yang, Yaofeng Tu, Steve Uhlig
         conference: "IEEE/ACM Transactions on Networking (<b>ToN</b>). May. 2023"
-        link: "./papers/pisketch_ton.pdf"
-        other: <a href="./papers/pisketch_ton.pdf">[PDF]</a>
+        link: "./papers/PISketch-ToN.pdf"
       - title: "Finding Simplex Items in Data Streams" 
         authors: Zhuochen Fan, <b><u>Jiarui Guo</u></b>, Xiaodong Li, Tong Yang, Yikai Zhao, Yuhan Wu, Bin Cui, Yanwei Xu, Steve Uhlig, Gong Zhang
         conference: "2023 IEEE 39th International Conference on Data Engineering (<b>ICDE '23</b>). Apr. 2023"
-        link: "./papers/xsketch_icde.pdf"
-        other: <a href="./papers/xsketch_icde.pdf">[PDF]</a> <a href="https://github.com/SimpleX-Sketch/X-Sketch">[Code]</a> <a href="./slides/xsketch_slides.pdf">[Slides]</a> 
+        link: "./papers/XSketch-ICDE23.pdf"
       - title: "REncoder: A Space-Time Efficient Range Filter with Local Encoder" 
         authors: Ziwei Wang, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Yuhan Wu, Haoyu Li, Tong Yang, Yaofeng Tu, Huanchen Zhang, Bin Cui
         conference: "2023 IEEE 39th International Conference on Data Engineering (<b>ICDE '23</b>). Apr. 2023"
-        link: "./papers/rencoder_icde.pdf"
-        other: <a href="./papers/rencoder_icde.pdf">[PDF]</a>
+        link: "./papers/REncoder-ICDE23.pdf"
       - title: "BurstSketch: Finding Bursts in Data Streams"
         authors: Ruijie Miao, Zheng Zhong, <b><u>Jiarui Guo</u></b>, Zikun Li, Tong Yang, Bin Cui
         conference: "IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>). Nov. 2022"
-        link: "./papers/burst_tkde.pdf"
-        other: <a href="./papers/burst_tkde.pdf">[PDF]</a> <a href="https://github.com/mrj222/burst-sketch">[Code]</a> 
+        link: "./papers/BurstSketch-TKDE.pdf"
       - title: "PISketch: Finding Persistent and Infrequent Flows" 
         authors: Zhuochen Fan, Zhoujing Hu, Yuhan Wu, <b><u>Jiarui Guo</u></b>, Wenrui Liu, Tong Yang, Hengrui Wang, Yifei Xu, Steve Uhlig, Yaofeng Tu
         conference: "Proceedings of the ACM SIGCOMM 2022 Workshop on Formal Foundations and Security of Programmable Network Infrastructures (<b>FFSPIN '22</b>). Aug. 2022"
-        link: "./papers/pisketch_ffspin.pdf"
-        other: <a href="./papers/pisketch_ffspin.pdf">[PDF]</a>
+        link: "./papers/PISketch-FFSPIN22.pdf"
 
 experiences:
     - role: Research Intern
