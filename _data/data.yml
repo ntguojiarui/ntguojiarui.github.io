@@ -4,8 +4,8 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-    experiences: True # set to False if you want experience in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+    experiences: False # set to False if you want experience in main section instead of in sidebar
     # Profile information
     name: Jiarui Guo
     tagline: 郭嘉睿<br>Ph.D. Student<br>Peking University<br>
@@ -33,7 +33,7 @@ career-profile:
 
       I am a Ph.D. student in School of Computer Science at Peking University, advised by Prof. <a href="https://cs.pku.edu.cn/info/1230/2031.htm">Xiaolin Wang</a> 
       and Prof. <a href="https://yangtonghome.github.io/">Tong Yang</a>. My research interests include inference optimization in LLM, quantization algorithms for large models, and sketching algorithms in data streams. 
-      I also work as a research intern at Infinigence AI. Before I start my Ph.D. degree, I received my bachelor degree in Computer Science and Mathematics at Peking University in 2023. 
+      I also work as a research intern at ByteDance. Before I start my Ph.D. degree, I received my bachelor degree in Computer Science and Mathematics at Peking University in 2023. 
       
 education:
     - degree: Ph.D. in Computer Science
@@ -94,39 +94,21 @@ publications:
         link: "./papers/PISketch-FFSPIN22.pdf"
 
 experiences:
-    - role: Research Intern
+    - role: Research Intern, Network Infrastructure
+      company: ByteDance
+      time: Aug. 2025 - Present
+    - role: Research Intern, System Communication
       company: Infinigence AI
-      time: Dec. 2024 - Present
-    - role: Research Intern
-      company: Baichuan Intelligent Technology
+      time: Dec. 2024 - Apr. 2025
+    - role: Research Intern, LLM Inference Scheduling & Quantization
+      company: Baichuan AI
       time: Apr. 2024 - Dec. 2024
-    - role: Research Intern (Remote)
+    - role: Research Intern (Remote), LLM Mixed-Precision Training
       company: Theory Lab, Huawei Technologies
       time: Sept. 2023 - Apr. 2024
       
 
-projects:
-    title: Projects
-    intro:
-    assignments:
-      - title: Review Materials
-        link: "review_material.html"
-        tagline: "Review materials for some courses in Peking University."
 
-materials: 
-    - title: "算法设计与分析(Algorithm Design & Analysis)"
-      link: "./files/Algo.pdf"
-    - title: "信息论(Information Theory)"
-      link: "./files/Info.pdf"
-    - title: "军事理论(Military Theory)"
-      link: "./files/Military.pdf"
-    - title: "计算机网络(Computer Network)"
-      link: "./files/Network.pdf"
-    - title: "操作系统(Operating System)"
-      link: "./files/OS.pdf"
-    - title: "地震概论(Introduction to Seismology)"
-      link: "./files/Seismology.pdf"
-    - title: "理论计算机科学基础(Theoretical Computer Science)"
-      link: "./files/TCS.pdf" 
+
       
 
