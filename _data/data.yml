@@ -94,16 +94,16 @@ publications:
         link: "./papers/PISketch-FFSPIN22.pdf"
 
 experiences:
-    - role: Research Intern on Network Infrastructure
+    - role: Research Intern
       company: ByteDance
       time: Aug. 2025 - Present
-    - role: Research Intern on System Communication
+    - role: Research Intern
       company: Infinigence AI
       time: Dec. 2024 - Apr. 2025
-    - role: Research Intern on LLM Inference Scheduling & Quantization
+    - role: Research Intern
       company: Baichuan AI
       time: Apr. 2024 - Dec. 2024
-    - role: Research Intern (Remote) on LLM Mixed-Precision Training
+    - role: Research Intern (Remote)
       company: Theory Lab, Huawei Technologies
       time: Sept. 2023 - Apr. 2024
       
