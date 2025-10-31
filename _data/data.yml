@@ -33,7 +33,7 @@ career-profile:
 
       I am a Ph.D. student in School of Computer Science at Peking University, advised by Prof. <a href="https://cs.pku.edu.cn/info/1230/2031.htm">Xiaolin Wang</a> 
       and Prof. <a href="https://yangtonghome.github.io/">Tong Yang</a>. My research interests include inference optimization in LLM, quantization algorithms for large models, and sketching algorithms in data streams. 
-      I also work as a research intern at ByteDance. Before I start my Ph.D. degree, I received my bachelor degree in Computer Science and Mathematics at Peking University in 2023. 
+      I also work as a research intern at Aicheng Technology, Alibaba Group. Before I start my Ph.D. degree, I received my bachelor degree in Computer Science and Mathematics at Peking University in 2023. 
       
 education:
     - degree: Ph.D. in Computer Science
@@ -95,8 +95,11 @@ publications:
 
 experiences:
     - role: Research Intern
+      company: Alibaba Group
+      time: Oct. 2025 - Present
+    - role: Research Intern
       company: ByteDance
-      time: Aug. 2025 - Present
+      time: Aug. 2025 - Oct. 2025
     - role: Research Intern
       company: Infinigence AI
       time: Dec. 2024 - Apr. 2025
@@ -104,7 +107,7 @@ experiences:
       company: Baichuan AI
       time: Apr. 2024 - Dec. 2024
     - role: Research Intern (Remote)
-      company: Theory Lab, Huawei Technologies
+      company: Huawei Technologies
       time: Sept. 2023 - Apr. 2024
       
 
