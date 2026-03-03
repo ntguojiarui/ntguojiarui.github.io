@@ -1,0 +1,32 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="archive__item-body" style="margin-bottom: 20px;">
+      <!-- Title with Link: [论文](超链接) -->
+      <div style="font-weight: bold; font-size: 1.1em;">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">{{ title }}</a>
+        {% else %}
+          {{ title }}
+        {% endif %}
+      </div>
+      
+      <!-- Authors: 换行写作者信息 -->
+      <div style="font-style: italic; margin-top: 3px;">
+        {{ post.authors_text }}
+      </div>
+      
+      <!-- Venue: 再换一行写会议/期刊名称 (全称 (简称)) -->
+      <div style="opacity: 0.7; margin-top: 3px;">
+        {{ post.venue }}
+      </div>
+    </div>
+  </article>
+</div>

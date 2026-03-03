@@ -1,0 +1,40 @@
+# Jekyll and general web development ignore list
+
+# Build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Dependency directories
+node_modules/
+vendor/
+.bundle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Temporal/Cache files
+.sass-cache/
+.cache/
+.eslintcache
+
+# macOS files
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
