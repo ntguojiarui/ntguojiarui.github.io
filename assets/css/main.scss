@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "breakpoint/breakpoint";
+@import "vendor/breakpoint/breakpoint";
 @import "themes";
 @import "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
 @import "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";

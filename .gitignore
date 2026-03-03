@@ -7,7 +7,7 @@ _site/
 
 # Dependency directories
 node_modules/
-vendor/
+# vendor/
 .bundle/
 
 # OS generated files
