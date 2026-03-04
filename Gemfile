@@ -23,3 +23,4 @@ gem "susy", "~> 2.2.12"
 
 gem "webrick", "~> 1.7"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "csv", "~> 3.3"

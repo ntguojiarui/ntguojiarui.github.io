@@ -1,0 +1,18 @@
+current directory: /Users/Frank/Documents/Code/ntguojiarui.github.io/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/Frank/Documents/Code/ntguojiarui.github.io/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j9 DESTDIR\= sitearchdir\=./.gem.20260304-13344-spmi7r sitelibdir\=./.gem.20260304-13344-spmi7r clean
+
+current directory: /Users/Frank/Documents/Code/ntguojiarui.github.io/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j9 DESTDIR\= sitearchdir\=./.gem.20260304-13344-spmi7r sitelibdir\=./.gem.20260304-13344-spmi7r
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/Frank/Documents/Code/ntguojiarui.github.io/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j9 DESTDIR\= sitearchdir\=./.gem.20260304-13344-spmi7r sitelibdir\=./.gem.20260304-13344-spmi7r install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260304-13344-spmi7r/racc
+
+current directory: /Users/Frank/Documents/Code/ntguojiarui.github.io/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260304-13344-spmi7r sitelibdir\=./.gem.20260304-13344-spmi7r clean
