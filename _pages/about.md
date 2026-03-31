@@ -24,6 +24,6 @@ Prior to my Ph.D. studies, I received my bachelor degree in Computer Science and
 
 * **Research Intern**, Alibaba Group, Oct. 2025 – Present
 * **Research Intern**, ByteDance, Aug. 2025 – Oct. 2025
-* **Research Intern**, Infinigence AI, Dec. 2024 – Apr. 2024
+* **Research Intern**, Infinigence AI, Dec. 2024 – Apr. 2025
 * **Research Intern**, Baichuan AI, Apr. 2024 – Dec. 2024
 * **Research Intern (Remote)**, Huawei Technologies, Sept. 2023 – Apr. 2024
