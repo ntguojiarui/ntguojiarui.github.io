@@ -10,15 +10,11 @@ author_profile: true
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
+    <h2 style="margin-top: 1.5em; padding-bottom: 0.1em; border-bottom: 1px solid var(--global-border-color); font-weight: bold;">{{ category[1].title }}</h2>
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
-      {% unless title_shown %}
-        <h2 style="margin-top: 1.5em; padding-bottom: 0.1em; border-bottom: 1px solid var(--global-border-color); font-weight: bold;">{{ category[1].title }}</h2>
-        {% assign title_shown = true %}
-      {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
