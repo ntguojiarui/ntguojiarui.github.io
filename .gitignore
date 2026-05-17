@@ -7,7 +7,7 @@ _site/
 
 # Dependency directories
 node_modules/
-# vendor/
+# vendor/ is tracked for the current GitHub Pages setup.
 .bundle/
 
 # OS generated files
