@@ -49,13 +49,14 @@ bundle exec jekyll build
 category: conferences
 title: "Paper Title"
 collection: publications
-permalink: /publication/YYYY-MM-paper-slug
 date: YYYY-MM-01
 venue: 'Venue Name'
 authors_text: 'Author list'
 paperurl: '/papers/Paper.pdf'
 ---
 ```
+
+Use the first day of the publication month for `date`; the day is only a sorting placeholder.
 
 Publication categories are configured in `_config.yml`:
 
